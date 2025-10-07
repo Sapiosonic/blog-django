@@ -1,0 +1,90 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+uploads/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Static files (quando coletados)
+staticfiles/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyPI
+dist/
+build/
+*.egg-info/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Database (exceto SQLite que já está acima)
+*.db
+*.mdb
+
+# Backup files
+*.bak
+*.backup
+
+# Migrations (opcional - cuidado!)
+# !/apps/*/migrations/
+# /apps/*/migrations/*/
+# !/apps/*/migrations/__init__.py
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Documentation
+docs/_build/
+
+# Package manager
+Pipfile.lock
+poetry.lock
+pyproject.toml
+
+# Test files
+.pytest_cache/
+.tox/
